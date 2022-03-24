@@ -5,3 +5,15 @@ header {
  font-size: 25px;
 }
 
+body {
+	font-family: "Times New Roman", Times, serif;
+	color: #544A4A;
+	font-size: 16px;
+}
+
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #3E8043;
+	font-size: 20px
+}
