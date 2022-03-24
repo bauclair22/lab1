@@ -3,12 +3,14 @@ header {
  font-weight: bold condensed;
  color: #AC2B37; 
  font-size: 25px;
+ padding:5px;
 }
 
 body {
 	font-family: "Times New Roman", Times, serif;
 	color: #544A4A;
 	font-size: 16px;
+	padding:4px;
 }
 
 h1{
@@ -16,4 +18,38 @@ h1{
 	font-weight: bold;
 	color: #3E8043;
 	font-size: 20px
+	padding:4px;
+}
+
+#content {
+    padding:3px;
+}
+
+#WPI{
+    /*center the image*/
+    display: block; 
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main_nav ul { padding: 0; margin: 0; }
+
+#main_nav li  {
+  list-style-type: none; /* remove bullet points */ 
+}
+
+#main_nav li a {
+   display: block;
+   text-decoration: none; /* remove underline */
+   border-radius: 10px;  /* rounded corners */
+   margin: 6px;
+   padding: 9px;
+   color: #222;
+   font-weight: bold;
+
+   /* nice gradient shade on the buttons */
+   background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+
+   border: 1px solid #666; /* dark outline */
 }
